@@ -26,20 +26,26 @@ header{
 }
 
 .menu{
-  padding: 20px;
+  width: 300px;
+  padding: 25px 0;
 }
 
-ul li{
+.menu ul li{
   list-style: none;
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  margin: 12px;
+}
+
+.menu li .circle{
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
   border-radius: 50%;
   background-color: white;
   padding: 15px;
 }
 
-a:hover li{
+.menu .circle:hover{
   box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.5);
 }
 
@@ -47,6 +53,8 @@ a:hover li{
   text-decoration: none;
   color: black;
   font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 
@@ -61,6 +69,7 @@ a:hover li{
 
 .box .center{
   width: 50%;
+  height: 80vh;
   margin: auto;
   position: absolute;
   top: 50%;
